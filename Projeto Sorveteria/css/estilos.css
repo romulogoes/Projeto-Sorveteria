@@ -1,0 +1,84 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  font-family: system-ui, sans-serif;
+}
+
+.topo{
+  background-color: orange;
+  padding: 20px;
+  text-align: center;
+}
+
+.container-links{
+  list-style: none;
+  margin-top: 10px;
+}
+
+.container-links li{
+  display: inline-block;
+  font-size: 22px;
+  margin: 0 5px;
+}
+
+.container-banner{
+  background-image: url(../img/Figura1_Exemplo-pratico.jpg);
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.container-principal{
+  padding: 100px 20px;
+}
+
+.primeira-secao, 
+.segunda-secao,
+.terceira-secao{
+  border: 1px solid #c1c1c1;
+  margin: 0 auto;
+  width: 1200px;
+  border-radius: 4px;
+  text-align: center;
+  padding: 10px;
+}
+
+.segunda-secao, .terceira-secao{
+  margin-top: 100px;
+}
+
+.primeira-secao h2, 
+.segunda-secao h2, 
+.terceira-secao h2{
+  margin-bottom: 15px;
+}
+
+.container-imgs{
+  margin: 20px 0;
+  white-space: nowrap;
+  overflow: auto;
+}
+
+.container-imgs img{
+  width: 30%;
+  padding: 0 10px;
+}
+
+.terceira-secao p{
+  margin: 10px 0;
+}
+
+.links-terceira-secao li{
+  list-style: none;
+  display: inline-block;
+  background-color: aqua;
+  border-radius: 4px;
+  margin: 0 5px;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
